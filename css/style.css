@@ -14,7 +14,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 600px;
+    height: 750px;
 }
 
 .card-content {
@@ -23,8 +23,8 @@ body {
     justify-content: flex-start;
     background-color: white;
     border-radius: 15px;
-    width: 275px;
-    height: 425px;
+    width: 330px;
+    height: 510px;
 }
 
 .card-content > h3 {
@@ -36,8 +36,8 @@ body {
 
 .card-content > p {
     text-align: center;
-    margin: 5px 10px 0px 10px;
-    font-size: 13.5px;
+    margin: 10px 10px 0px 10px;
+    font-size: 15px;
     color: #888a8f;
 }
 
@@ -45,4 +45,15 @@ body {
 .qr-code {
     margin: 15px;
     border-radius: 10px;
+}
+
+@media (max-width: 375px) {
+    .card {
+        height: 650px;
+    }
+
+    .card-content {
+        width: 250px;
+        height: 415px;
+    }
 }
